@@ -1,0 +1,16 @@
+l=[]
+n=int(input('Enter n value:'))
+l=input().split()
+t=[]
+for i in l:
+    t.append(int(i))
+x=[]
+for i in t:
+    if i not in x:
+        x.append(i)
+x.sort(reverse=True)
+print(x[1])
+Output:-
+Enter n value:6
+2 5 4 9 7 1
+7
